@@ -1,0 +1,251 @@
+.footer {
+  width: 1090px;
+  height: 410px;
+  margin: auto;
+  margin-top: 155px;
+}
+.footerInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact {
+  height: 210px;
+}
+.contactOption {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+.contactOption > a {
+  text-decoration: none;
+  color: black;
+  transition: 0.1s ease-in;
+}
+.contactOption > a:hover {
+  transform: scale(1.05);
+}
+.FooterOption {
+  margin: 0 33.5px;
+  height: 210px;
+}
+.FooterOption > p {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.newsLetter {
+  padding: 10px;
+  width: 340px;
+  height: 81px;
+}
+.newsLetterInput {
+  width: 120px;
+  border: none;
+  height: 50px;
+  margin-right: 10px;
+  padding: 0 12px;
+  border-radius: 4px;
+}
+.newsLetterInput:focus-visible {
+  outline: none;
+}
+
+.copyRight {
+  position: relative;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.copyRight:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #696969, transparent);
+}
+.copyRight > p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer {
+    width: 100%;
+  }
+  .newsLetter {
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+  }
+  .FooterOption {
+    margin: 0 17px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .newsLetter {
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+  }
+  .FooterOption {
+    margin: 0 17px;
+  }
+  .FooterOption > p {
+    font-size: 24px;
+  }
+  .contactOption {
+    margin: 12px 0;
+  }
+  .contactOption > a {
+    font-size: 14px;
+  }
+  .footerBrandName {
+    font-size: 24px;
+  }
+  .footerBranding > svg {
+    width: 28px;
+    height: 28px;
+  }
+  .newsLetterInput {
+    width: 100px;
+  }
+  .newsLetter > button {
+    font-size: 14px;
+    height: 30px;
+    width: 120px;
+  }
+  .copyRight{
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .FooterOption {
+    margin: 0 14px;
+  }
+  .FooterOption > p,
+  .footerBrandName {
+    font-size: 20px;
+  }
+  .contactOption {
+    margin: 10px 0;
+  }
+  .contactOption > a {
+    font-size: 12px;
+  }
+
+  .footerBranding > svg {
+    width: 24px;
+    height: 24px;
+  }
+  .contactOption > svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .FooterOption {
+    margin: 0 12px;
+  }
+  .FooterOption > p,
+  .footerBrandName {
+    font-size: 18px;
+  }
+
+  .contactOption > a {
+    font-size: 10px;
+  }
+
+  .footerBranding > svg {
+    width: 22px;
+    height: 22px;
+  }
+  .contactOption > svg {
+    width: 18px;
+    height: 18px;
+  }
+  .newsLetter {
+    margin: 0;
+  }
+  .newsLetterInput {
+    height: 35px;
+    width: 80px;
+  }
+  .newsLetter > button {
+    font-size: 14px;
+    height: 30px;
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .FooterOption > p,
+  .footerBrandName {
+    font-size: 16px;
+  }
+
+  .contactOption > a {
+    font-size: 8px;
+  }
+
+  .footerBranding > svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contactOption > svg {
+    width: 16px;
+    height: 16px;
+  }
+  .newsLetterInput {
+    width: 70px;
+  }
+  .newsLetter > button {
+    font-size: 12px;
+    height: 30px;
+    width: 90px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .FooterOption > p,
+  .footerBrandName {
+    font-size: 14px;
+  }
+
+  .contactOption > a {
+    font-size: 7px;
+  }
+
+  .footerBranding > svg {
+    width: 18px;
+    height: 18px;
+  }
+  .contactOption > svg {
+    width: 14px;
+    height: 14px;
+  }
+  .newsLetterInput {
+    width: 60px;
+  }
+  .newsLetter > button {
+    font-size: 10px;
+    height: 30px;
+    width: 80px;
+  }
+  .newsLetterInput::-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .newsLetterInput::placeholder {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .FooterOption {
+    margin: 0 5px;
+  }
+}

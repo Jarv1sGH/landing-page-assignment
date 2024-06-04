@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "headline": "Make The Best Financial Decisions",
+    "subheadline": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui laudantium atque sequi iusto molestias maiores obcaecati voluptates eum numquam eveniet.",
+    "ctaButtons": [
+      {
+        "text": "Get Started",
+        "link": "/"
+      },
+      {
+        "text": "Watch Video",
+        "link": "/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 1090px;
+  margin: auto;
+}
+.faqHeader {
+  margin-bottom: 40px;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 445px;
+  height: 151px;
+  margin: 10px 20px;
+}
+.faqRed {
+  background-color: #ff5555;
+  color: white;
+  border-radius: 8px;
+}
+.faq > p:first-child {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.faq > p:last-child {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.faqs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .faqContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .faq{
+    padding: 20px;
+    width: 345px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .faq{
+    padding: 15px;
+    width: 305px;
+  }
+  .faq > p:first-child{
+      font-size: 20px;
+  }
+  .faq > p:last-child{
+      font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  
+  .faqContainer {
+    align-items: center;
+  
+  }
+  .faqHeader > p{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .faq{
+    padding: 10px;
+  }
+  .faq > p:first-child{
+      font-size: 18px;
+  }
+  .faq > p:last-child{
+      font-size: 14px;
+  }
+}

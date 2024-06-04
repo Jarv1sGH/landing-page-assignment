@@ -1,0 +1,13 @@
+{
+  "headline": "Why Choose UiFry?",
+  "advantages": [
+    {
+      "title": "Clever Notifications",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptas, reiciendis, quis autem molestiae illo dolor mollitia aliquam cum consequuntur eius et repudiandae adipisci fugit facere rem deleniti doloremque distinctio. Et, numquam vel libero veritatis sunt debitis ea harum doloribus sapiente reiciendis"
+    },
+    {
+      "title": "Fully Customizable",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptas, reiciendis, quis autem molestiae illo dolor mollitia aliquam cum consequuntur eius et repudiandae adipisci fugit facere rem deleniti doloremque distinctio. Et, numquam vel libero veritatis sunt debitis ea harum doloribus sapiente reiciendis"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "headline": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "What is this app about?",
+      "answer": "This app helps you manage your finances with tools for budgeting, tracking expenses, managing investments, and planning financial goals."
+    },
+    {
+      "question": "How do I create a budget?",
+      "answer": "Navigate to the Budget section, enter your income and expenses, and the app will help you track and manage your budget effectively."
+    },
+    {
+      "question": "Can I link my bank accounts?",
+      "answer": "Yes, you can securely link multiple bank accounts to sync transactions automatically and easily track your finances."
+    },
+    {
+      "question": "How can I track my expenses?",
+      "answer": "Use the Transactions section to manually enter expenses or auto-categorize linked bank transactions, with detailed reports available."
+    },
+    {
+      "question": "What investment tools are available?",
+      "answer": "Track your investments, analyze performance, and receive insights and recommendations for stocks, bonds, mutual funds, and more."
+    },
+    {
+      "question": "Is my data secure?",
+      "answer": "Yes, your data is protected with encryption, multi-factor authentication, and regular security audits to ensure privacy and security."
+    }
+  ]
+}

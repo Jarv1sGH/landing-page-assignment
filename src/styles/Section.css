@@ -1,0 +1,237 @@
+.featureSection {
+  display: flex;
+  flex-direction: row;
+  margin: 2px 0;
+}
+
+.featureAppScreen {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.featureEllipse {
+  position: absolute;
+  z-index: -2;
+}
+.featureSmudge {
+  position: absolute;
+  z-index: -3;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 128px 0;
+}
+.featureHeadline {
+  color: #ff5555;
+  font-size: 18px;
+}
+.sectionBoldHeaderText {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.featureWrapper {
+  margin: 32px 0;
+}
+
+.featureWrapper > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.featureTitle {
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.featuresSmudge {
+  position: absolute;
+  z-index: -10;
+  top: 20%;
+  right: -100px;
+}
+
+.advantageInner {
+  display: flex;
+  flex-direction: row;
+}
+.advantageInner > p {
+  margin-left: 15px;
+}
+.bellIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #ff5555;
+  border-radius: 50%;
+}
+
+.advantage {
+  width: 500px;
+}
+.sectionText {
+  margin-top: 12px;
+  font-size: 18px;
+  color: gray;
+}
+.sectionTextBold {
+  margin-left: 8px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.userImages {
+  width: 192px;
+  height: 40px;
+  margin: 24px 0;
+  cursor: pointer;
+}
+.userImage {
+  object-fit: contain;
+  transition: 0.1s ease-in;
+}
+.userImage:hover {
+  transform: scale(1.1);
+}
+.selectedUser {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0 4px;
+  opacity: 1;
+}
+.imageWrapper {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0 8px;
+  opacity: 0.6;
+}
+.username {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimonialHeader {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 455px;
+}
+.testimonialHeader > p:first-child {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.testimonialSection {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-Reverse {
+  flex-direction: row-reverse;
+}
+@media only screen and (max-width: 1000px) {
+  .featuresMockup {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .featuresMockup {
+    width: 400px;
+    height: 400px;
+  }
+  .sectionBoldHeaderText {
+    font-size: 36px;
+  }
+  .featureWrapper {
+    margin: 24px 0;
+  }
+  .sectionText {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .features {
+    padding: 80px 20px;
+  }
+  .featuresMockup {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .featureSection {
+    flex-direction: column;
+  }
+  .flex-Reverse {
+    flex-direction: column !important;
+  }
+  .features {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .sectionTextBold {
+    margin-left: 0;
+    font-size: 24px;
+    margin-bottom: 10px !important;
+    width: 90% !important;
+  }
+  .sectionText {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .features {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .featureWrapper {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .testomonialText {
+    width: 80%;
+    margin: auto;
+    font-size: 28px;
+  }
+  .sectionBoldHeaderText {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .sectionTextBold {
+    width: 100%;
+    font-size: 20px;
+  }
+  .sectionText {
+    margin-left: 10px;
+  }
+  .testomonialText {
+    width: 60%;
+    font-size: 22px;
+  }
+  .sectionBoldHeaderText {
+    font-size: 22px;
+  }
+}

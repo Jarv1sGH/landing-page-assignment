@@ -1,0 +1,319 @@
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+}
+
+.headlineContainer {
+  position: relative;
+}
+.headline {
+  margin-top: 115px;
+  font-size: 64px;
+  width: 618px;
+  font-weight: bold;
+}
+.headlineSmudge {
+  position: absolute;
+  z-index: -10;
+  top: 0px;
+  left: 75px;
+}
+.bottomText {
+  color: grey;
+  margin-top: 24px;
+  width: 638px;
+}
+
+.actionBtns {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+}
+
+.landingPageBtn2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  height: 60px;
+  width: 180px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+.landingPageBtn2:hover {
+  transform: scale(1.05);
+}
+
+.landingPageBtn2 > svg {
+  padding: 0 14px;
+}
+
+.achievements {
+  margin-top: 17px;
+}
+
+.appScreens {
+  position: relative;
+  min-width: 638px;
+  margin-left: 50px;
+}
+.appScreens > img {
+  position: absolute;
+}
+.appScreen1 {
+  z-index: 3;
+  top: 0;
+  left: -80px;
+  cursor: pointer;
+}
+.appScreen2 {
+  z-index: 2;
+  top: 78px;
+  left: 22px;
+  cursor: pointer;
+  transition: z-index 0.3s;
+}
+.appScreen3 {
+  z-index: 1;
+  top: 135px;
+  left: 120px;
+  cursor: pointer;
+  transition: z-index 0.3s;
+}
+
+.ellipse {
+  position: absolute;
+  right: 120px;
+  top: 10px;
+  z-index: -2;
+}
+.smudge {
+  position: absolute;
+  z-index: -3;
+  bottom: 145px;
+  left: 15px;
+}
+
+.achievementsImage {
+  display: flex;
+}
+@media only screen and (max-width: 1250px) {
+  .appScreen1,
+  .appScreen2,
+  .appScreen3 {
+    width: 250px;
+    height: 405px;
+  }
+  .appScreen1 {
+    top: 60px;
+  }
+  .appScreen2 {
+    top: 118px;
+    left: 2px;
+  }
+  .appScreen3 {
+    top: 165px;
+    left: 82px;
+  }
+  .ellipse {
+    width: 455px;
+    height: 455px;
+    right: 260px;
+    top: 40px;
+  }
+  .smudge {
+    width: 300px;
+    height: 185px;
+    bottom: 230px;
+    left: -30px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .heroSection {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .appScreens {
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  .appScreen1 {
+    top: 0px;
+    left: 30%;
+  }
+  .appScreen2 {
+    top: 58px;
+    left: 41%;
+  }
+  .appScreen3 {
+    top: 105px;
+    left: 51%;
+  }
+
+  .ellipse {
+    width: 455px;
+    height: 455px;
+    left: 30%;
+    top: -25px;
+  }
+  .smudge {
+    width: 350px;
+    height: 215px;
+    left: 35%;
+    bottom: -20px;
+  }
+  .achievements {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .appScreen1 {
+    top: 0px;
+    left: 25%;
+  }
+  .appScreen2 {
+    top: 58px;
+    left: 36%;
+  }
+  .appScreen3 {
+    top: 105px;
+    left: 46%;
+  }
+
+  .ellipse {
+    left: 25%;
+    top: -25px;
+  }
+  .smudge {
+    left: 30%;
+    bottom: -20px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .headlineContainer {
+    width: 100%;
+  }
+  .headlineSmudge {
+    width: 257px;
+    height: 190px;
+    top: 55px;
+  }
+  .headline {
+    width: 60%;
+    font-size: 32px;
+  }
+  .bottomText {
+    width: 80%;
+  }
+}
+.actionBtns > button > a {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (max-width: 550px) {
+  .headline {
+    width: 65%;
+  }
+  .appScreens {
+    height: 400px;
+  }
+  .appScreen1,
+  .appScreen2,
+  .appScreen3 {
+    width: 200px;
+    height: 305px;
+  }
+  .appScreen1 {
+    top: 0px;
+    left: 25%;
+  }
+  .appScreen2 {
+    top: 58px;
+    left: 36%;
+  }
+  .appScreen3 {
+    top: 105px;
+    left: 46%;
+  }
+
+  .ellipse {
+    width: 355px;
+    height: 355px;
+    left: 25%;
+    top: -8px;
+  }
+  .smudge {
+    width: 300px;
+    height: 185px;
+    left: 30%;
+    bottom: 80px;
+  }
+
+  .landingPageBtn,
+  .landingPageBtn2 {
+    width: 135px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .landingPageBtn2 > svg {
+    padding: 7px;
+  }
+  .achievements {
+    width: 300px;
+    height: 225px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .headline {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .headline {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .appScreen1,
+  .appScreen2,
+  .appScreen3 {
+    width: 180px;
+    height: 275px;
+  }
+
+  .ellipse {
+    width: 345px;
+    height: 345px;
+    top: -5px;
+  }
+  .smudge {
+    bottom: 110px;
+  }
+  .landingPageBtn,
+  .landingPageBtn2 {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .achievements {
+    width: 220px;
+    height: 185px;
+  }
+  .headlineSmudge {
+    width: 257px;
+    height: 190px;
+    top: 55px;
+    left: 20px;
+  }
+  .headline {
+    font-size: 28px;
+  }
+}
